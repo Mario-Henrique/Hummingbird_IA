@@ -21,8 +21,10 @@ Um projeto de aprendizagem do Unity Learn para uma IA de um beija-flor aprendend
   #### Instalação do Pytorch
   ```
     # Antes de instalar o pytorch caso você tenha uma placa de vídeo habilitada para utilizar CUDA então vamos configurar isso primeiro. Você pode verificar sua placa de vídeo nesse site: https://developer.nvidia.com/cuda-gpus
-    # 
-    > conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+    # Aqui você encontra instruções mais detalhadas na instalação do CUDA e cuDNN: https://medium.com/data-hackers/como-instalar-nvidia-cuda-83aa21dde069
+    
+    # Após instalar o CUDA use esse comando para instalar o pytorch. Lembre-se de mudar a versão do CUDA
+    > conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
     
     # Caso não tenha uma placa de vídeo então vamos usar apenas o processador.
     > conda install pytorch torchvision torchaudio cpuonly -c pytorch
