@@ -41,3 +41,9 @@ Um projeto de aprendizagem do Unity Learn para uma IA de um beija-flor aprendend
     
     # hb_01 é o nome de identificação do seu treinamento
   ```
+  
+  #### Tensorboard
+  ```
+  Aqui podemos acompanhar a evolução do nosso agente via dashboard web. No prompt do anaconda, navegue até a pasta onde estão os arquivos do treinamento e digite:
+  > tensorboard --logdir summaries
+  ```
