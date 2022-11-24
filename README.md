@@ -25,8 +25,8 @@ Um projeto de aprendizagem do Unity Learn para uma IA de um beija-flor aprendend
     
     # Nesse artigo da [MEDIUM](#https://medium.com/data-hackers/como-instalar-nvidia-cuda-83aa21dde069) você encontra instruções mais detalhadas para a instalação do CUDA e cuDNN.
     
-    # Após instalar o CUDA use esse comando para instalar o pytorch. Lembre-se de mudar a versão do CUDA
-    > conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+    # Após instalar o CUDA use esse comando para instalar o pytorch.
+    > conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
     
     # Caso não tenha uma placa de vídeo então vamos usar apenas o processador.
     > conda install pytorch torchvision torchaudio cpuonly -c pytorch
