@@ -45,5 +45,7 @@ Um projeto de aprendizagem do Unity Learn para uma IA de um beija-flor aprendend
   #### Tensorboard
   ```
   Aqui podemos acompanhar a evolução do nosso agente via dashboard web. No prompt do anaconda, navegue até a pasta onde estão os arquivos do treinamento e digite:
-  > tensorboard --logdir summaries
+  > tensorboard --logdir .
+  
+  # Onde . é o caminho onde estão salvos os arquivos de treinamento
   ```
